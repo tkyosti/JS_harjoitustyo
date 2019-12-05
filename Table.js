@@ -18,7 +18,7 @@ const TableBody = props => {
             <tr key={index}>
                 <td>{row.laskuttava_yritys}</td>
                 <td>{row.maksupvm}</td>
-                <td>{row.maksun_loppusumma}</td>
+                <td>{row.laskun_loppusumma}</td>
                 <td>{row.maksaja}</td>
                 <td>
                     <button onClick={() => props.removeCharacter(index)}>Delete</button>
