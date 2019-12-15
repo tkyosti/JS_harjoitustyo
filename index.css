@@ -48,6 +48,9 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+  h2{
+    text-align: center;
+  }
 /* Grouping content
    ========================================================================== */
 /**
@@ -340,7 +343,7 @@ html {
 
 body {
   color: #404040;
-  background: white;
+   background-image: linear-gradient(white,rgb(112, 255, 248), white);
   font-size: 1rem; }
 
 p,
