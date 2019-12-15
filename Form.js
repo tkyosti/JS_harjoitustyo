@@ -33,6 +33,7 @@ class Form extends Component {
         const { characters } = this.state
 
         this.setState({
+            count:this.state.count - 1,
             characters: characters.filter((character, i) => {
                 return i !== index
             }),
