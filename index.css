@@ -712,7 +712,7 @@ a.full-button {
  */
 [type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea {
   display: block;
-  border: 1px solid #dedede;
+  border: 1px solid #00158f;
   border-radius: 4px;
   padding: .75rem;
   outline: none;
@@ -797,7 +797,7 @@ table {
   max-width: 100%; }
 
 thead th {
-  border-bottom: 2px solid #dedede; }
+  border-bottom: 2px solid #00158f; }
 
 tfoot th {
   border-top: 2px solid #dedede; }
