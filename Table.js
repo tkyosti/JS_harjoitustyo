@@ -20,7 +20,7 @@ const TableBody = props => {
                 <td>{row.maksupvm}</td>
                 <td>{row.laskun_loppusumma}</td>
                 <td>{row.maksaja}</td>
-                <td><button onClick={() => props.removeCharacter(index)}>Delete</button>
+                <td><button onClick={() => window.confirm("Haluatko varmasti tyhjentää tiedot?") && props.removeCharacter(index)}>Delete</button>
                 </td>
             </tr>
         );
